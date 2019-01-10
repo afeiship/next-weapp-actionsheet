@@ -10,10 +10,10 @@
           var options = nx.mix(
             {
               success: function(res) {
-                resolve(true);
+                resolve({ code: 0, data: res });
               },
               fail: function(res) {
-                resolve(false);
+                resolve({ code: 1, data: res });
               }
             },
             inOptions
