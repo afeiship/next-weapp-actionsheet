@@ -1,0 +1,27 @@
+{
+  "name": "next-weapp-actionsheet",
+  "version": "0.0.1",
+  "description": "Weapp actionsheet",
+  "main": "dist/next-weapp-actionsheet.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-weapp-actionsheet",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "build",
+    "gulpfile.js"
+  ]
+}
