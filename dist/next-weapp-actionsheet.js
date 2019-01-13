@@ -12,6 +12,9 @@
           wx.showActionSheet(options);
         });
       },
+      actions: function(inOptions) {
+        return this.present(inOptions);
+      },
       dismiss: function() {}
     }
   });
